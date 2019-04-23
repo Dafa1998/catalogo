@@ -1,0 +1,148 @@
+.contenedor{
+    margin-left:30%;
+    background: rgba(85, 85, 95, 0.5);
+    width: 35%;
+    border-top: 3px solid #00D0BA;
+    margin-top: 5%;
+    box-shadow: 1px 2px 4px rgba(1, 1, 1,0.7);
+    padding-bottom:1px;
+}
+
+.form{
+    width: 100%;
+}
+
+.datos{
+    
+    width: 80%;
+    background: #fff;
+    min-width:20%;
+    margin: auto;
+    margin-top:70px;
+    padding: 4px;
+}
+
+.datos1{
+    
+    width: 80%;
+    background: #fff;
+    min-width:20%;
+    margin: auto;
+    margin-top:20px;
+    padding: 4px;
+}
+
+
+
+.usuario{
+    background:#fff;
+    padding: 11px;
+    margin-left: -4px;;
+    font-family: Arial, Helvetica, sans-serif;
+    border:none;
+    width: 80%;
+    margin: auto;
+    font-size: 17px;
+    outline: none;
+}
+
+i{
+    background: #fff;
+    color: #ccc;
+    margin-left: 2px;
+    height: 33px;
+    padding: 4px;
+}
+
+.contrasena{
+    background:#fff;
+    padding: 11px;
+    margin-left: -4px;;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+    font-size: 17px;
+    outline: none;
+    
+}
+
+.btn{
+    padding: 10px;
+    width: 100%;
+    height:60px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    background: #00D0BA;  
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 3px;
+}
+
+.datos2{
+    width: 82%;
+    background: rgba(85, 85, 95, transparent);
+    min-width:20%;
+    margin: auto;
+    margin-top:30px;
+    margin-bottom: 60px;
+}
+
+.btn:active{
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+
+
+@media(max-width:1142px){
+    .contenedor{
+        width: 50%;
+    }
+}
+
+
+
+@media( max-width:1072px){
+    .contrasena{
+        margin: auto;
+    }
+   
+}
+
+@media( max-width:843px){
+    .contenedor{
+        width: 60%;
+    }
+    .contrasena{
+        width: 65%;
+        
+    }
+    .usuario{
+        width: 70%;
+        
+    }
+   
+}
+
+@media(max-width:453px){
+    .contenedor{
+        width: 90%;
+    }
+}
+
+@media(max-width:321px){
+    .contenedor{
+        width: 100%;
+    }
+    .contrasena{
+        width: 65%;
+        
+    }
+    .usuario{
+        width: 70%;
+        
+    }
+}
